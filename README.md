@@ -78,22 +78,35 @@ Note: Contributors should aim to match the design as closely as possible unless 
 ## Getting Started
 1. Fork the Repository
 Click the "Fork" button at the top right of the repository page to create a copy in your GitHub account:
-
+```
 https://github.com/MfrankUg/MothercarePrepSchool
+```
 
 2. Clone Your Fork
 Open your terminal and clone the repository to your local machine, then navigate into the project folder:
 
 Bash
+```
 git clone [https://github.com/YOUR-USERNAME/MothercarePrepSchool.git](https://github.com/YOUR-USERNAME/MothercarePrepSchool.git)
+```
+
+```
 cd MothercarePrepSchool
+```
+
 3. Install Dependencies
 Since this is a Vite project, install the required packages using npm or yarn:
 
 Bash
+```
 npm install
+```
+
 ## or
+```
 yarn install
+```
+
 4. Create a New Branch
 Create a separate branch for your feature or bug fix:
 
@@ -104,19 +117,26 @@ Start the local development server to preview your changes:
 ```
 
 Bash
+```
 npm run dev
+```
 ## or
+```
 yarn dev
+```
 Open http://localhost:5173 with your browser to see the site. (Note: Vite defaults to port 5173)
 
 6. Commit and Push Your Changes
 Once you are happy with your work, commit your changes and push them to your forked repository:
 
 Bash
+```
 git add .
 git commit -m "Add: description of your changes"
 git push origin feature/your-feature-name
+```
+
 7. Submit a Pull Request
 Go to the original MfrankUg/MothercarePrepSchool repository on GitHub and click "Compare & pull request". Provide a clear description of what you changed or fixed.
 
-Copyright © 2026 Frank Muhindo. All rights reserved.
+Copyright © 2026 . All rights reserved.
