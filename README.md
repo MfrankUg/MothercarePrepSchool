@@ -87,7 +87,7 @@ Open your terminal and clone the repository to your local machine, then navigate
 
 Bash
 ```
-git clone [https://github.com/YOUR-USERNAME/MothercarePrepSchool.git](https://github.com/YOUR-USERNAME/MothercarePrepSchool.git)
+git clone https://github.com/YOUR-USERNAME/MothercarePrepSchool.git
 ```
 
 ```
