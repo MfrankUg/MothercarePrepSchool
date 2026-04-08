@@ -1,7 +1,7 @@
 # MothercarePrepSchool
 Modern, responsive website for Mothercare Preparatory School (Kasese, Uganda), designed to showcase academics, admissions, and student life. Open-source and ready for customization.
 
-![Mothercare Prep School Preview](https://github.com/MfrankUg/MothercarePrepSchool/raw/main/mothercare_vid.gif)
+![Mothercare Prep School Preview](https://github.com/MfrankUg/MothercarePrepSchool/blob/main/repo_attachement/mothercare_vid.gif)
 
 ---
 
