@@ -110,11 +110,13 @@ yarn install
 4. Create a New Branch
 Create a separate branch for your feature or bug fix:
 
-```Bash
+Bash
+```
 git checkout -b feature/your-feature-name
+```
+
 5. Run the Development Server
 Start the local development server to preview your changes:
-```
 
 Bash
 ```
