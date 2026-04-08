@@ -3,6 +3,8 @@ Modern, responsive website for Mothercare Preparatory School (Kasese, Uganda), d
 
 ![Mothercare Prep School Preview](./repo_attachement/mothercare_vid.gif)
 
+project is deployed on vercel for testing purposes:
+![website live test](https://mothercare-prep-school.vercel.app/)
 ---
 
 # Contributing Guide
