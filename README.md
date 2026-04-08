@@ -47,14 +47,16 @@ MothercarePrepSchool/
 ├── tsconfig.json           # TypeScript rules
 └── vite.config.ts          # Vite build configuration
 ```
-Design Reference (Figma)
+## Design Reference (Figma)
 All contributors are encouraged to review the official design mockups and follow the prototype flow before making changes.
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="20" height="20" alt="Figma" style="vertical-align: middle; margin-right: 5px;" />View the Figma Design Mockups
+**<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="20" height="20" alt="Figma" style="vertical-align: middle; margin-right: 5px;" />[View the Figma Design Mockups](https://www.figma.com/design/mOjPcCJUpAy2SLtOlGLULs/Mothercare-Prep-School?node-id=0-1&t=deXSp22qqtmw2bwO-1)**
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="20" height="20" alt="Figma" style="vertical-align: middle; margin-right: 5px;" />View the Interactive Prototype
 
-Design Flow
+**<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="20" height="20" alt="Figma" style="vertical-align: middle; margin-right: 5px;" />[View the Interactive Prototype](https://www.figma.com/proto/mOjPcCJUpAy2SLtOlGLULs/Mothercare-Prep-School?node-id=9-3274&t=7iQbBiFQH0eehNAl-1&scaling=min-zoom&content-scaling=fixed&page-id=6%3A2381&starting-point-node-id=9%3A3274)**
+
+
+## Design Flow
 The design process starts from the prototype and flows as follows:
 
 Review the full design mockups and prototype in Figma
@@ -73,7 +75,7 @@ Maintain consistency with colors, fonts, and spacing
 
 Note: Contributors should aim to match the design as closely as possible unless proposing an intentional improvement.
 
-Getting Started
+## Getting Started
 1. Fork the Repository
 Click the "Fork" button at the top right of the repository page to create a copy in your GitHub account:
 
@@ -90,19 +92,20 @@ Since this is a Vite project, install the required packages using npm or yarn:
 
 Bash
 npm install
-# or
+## or
 yarn install
 4. Create a New Branch
 Create a separate branch for your feature or bug fix:
 
-Bash
+```Bash
 git checkout -b feature/your-feature-name
 5. Run the Development Server
 Start the local development server to preview your changes:
+```
 
 Bash
 npm run dev
-# or
+## or
 yarn dev
 Open http://localhost:5173 with your browser to see the site. (Note: Vite defaults to port 5173)
 
