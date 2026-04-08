@@ -21,6 +21,9 @@ All contributors are encouraged to review the official design mockups and follow
 
 **<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="20" height="20" alt="Figma" style="vertical-align: middle; margin-right: 5px;" />[View the Interactive Prototype](https://www.figma.com/proto/mOjPcCJUpAy2SLtOlGLULs/Mothercare-Prep-School?node-id=9-3274&t=7iQbBiFQH0eehNAl-1&scaling=min-zoom&content-scaling=fixed&page-id=6%3A2381&starting-point-node-id=9%3A3274)**
 
+![Mothercare Prep School mockupPreview](https://github.com/MfrankUg/MothercarePrepSchool/blob/main/repo_attachement/designs.png)
+
+
 ### Design Flow
 
 The design process starts from the prototype and flows as follows:
