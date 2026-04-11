@@ -53,6 +53,10 @@ export default function Footer() {
         <p className="text-center text-xs text-slate-500">
           © {new Date().getFullYear()} Mothercare Preparatory School. All rights reserved.
         </p>
+        <br />  
+        <p className="text-center text-xs text-slate-500">
+          Developed by Muhindo Frank and Bwambale Thomas with support from Class of 2014.
+        </p>
       </div>
     </footer>
   );
