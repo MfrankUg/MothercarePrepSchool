@@ -80,7 +80,7 @@ function HeroSection() {
           className="w-full lg:w-1/2 relative min-h-[420px] md:min-h-[580px] transition-all duration-700 delay-200"
           style={{ opacity: visible ? 1 : 0, transform: visible ? 'translateX(0)' : 'translateX(40px)' }}
         >
-          <div className="group absolute right-0 top-0 w-4/5 h-[80%] rounded-[40px] overflow-hidden shadow-2xl z-10">
+          <div className="touch-img group absolute right-0 top-0 w-4/5 h-[80%] rounded-[40px] overflow-hidden shadow-2xl z-10">
             <img
               src={img24}
               alt="Students"
@@ -141,7 +141,7 @@ function NurserySection() {
               }}
             >
               <div className={`h-60 w-full ${c.accent} p-5 relative overflow-hidden`}>
-                <div className="h-full rounded-[20px] overflow-hidden shadow-md">
+                <div className="touch-img h-full rounded-[20px] overflow-hidden shadow-md">
                   <img
                     src={c.img}
                     alt={c.title}
@@ -180,7 +180,7 @@ function PrimarySection() {
           className="relative h-[420px] md:h-[580px] transition-all duration-700"
           style={{ opacity: visible ? 1 : 0, transform: visible ? 'translateX(0)' : 'translateX(-40px)' }}
         >
-          <div className="group h-full rounded-[40px] overflow-hidden shadow-2xl">
+          <div className="touch-img group h-full rounded-[40px] overflow-hidden shadow-2xl">
             <img
               src={img35}
               alt="Primary students"
@@ -254,7 +254,7 @@ function ExtracurricularSection() {
           {extras.map((e, i) => (
             <div
               key={e.title}
-              className="group relative h-80 rounded-[28px] overflow-hidden shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-500"
+              className="touch-img group relative h-80 rounded-[28px] overflow-hidden shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-500"
               style={{
                 opacity: visible ? 1 : 0,
                 transform: visible ? 'translateY(0)' : 'translateY(50px)',

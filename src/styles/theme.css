@@ -119,6 +119,28 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+/* ── Touch / Mobile interactive support ────────────────────────────────────
+   On touch screens hover never persists, so we make the "hovered" card state
+   always visible and give images a tap-scale effect instead.
+   ───────────────────────────────────────────────────────────────────────── */
+@media (hover: none) {
+  /* Dark-flip cards (ValueBox, FeatureCard, StepCard) */
+  .touch-card {
+    background-color: #1a1c1c !important;
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  }
+  .touch-card .touch-title { color: #ffffff !important; }
+  .touch-card .touch-desc  { color: rgb(148 163 184) !important; }
+  .touch-card img          { transform: scale(1.05) !important; }
+
+  /* Image-only containers: zoom in on tap */
+  .touch-img:active img {
+    transform: scale(1.06) !important;
+    transition: transform 0.3s ease;
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

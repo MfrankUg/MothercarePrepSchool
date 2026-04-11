@@ -162,7 +162,7 @@ function StepsSection() {
           {steps.map((s, i) => (
             <div
               key={s.num}
-              className="bg-[#f5f5f0] hover:bg-[#1a1c1c] group p-8 md:p-10 rounded-[32px] relative pt-14 mt-6 hover:-translate-y-2 transition-all duration-500 hover:shadow-xl"
+              className="touch-card bg-[#f5f5f0] hover:bg-[#1a1c1c] group p-8 md:p-10 rounded-[32px] relative pt-14 mt-6 hover:-translate-y-2 transition-all duration-500 hover:shadow-xl"
               style={{
                 opacity: visible ? 1 : 0,
                 transform: visible ? 'translateY(0)' : 'translateY(40px)',
@@ -174,8 +174,8 @@ function StepsSection() {
               <div className="absolute -top-6 left-8 w-14 h-14 bg-red-600 group-hover:bg-red-500 rounded-full flex items-center justify-center text-white font-black text-xl shadow-lg shadow-red-600/30 transition-colors duration-300 border-4 border-white">
                 {s.num}
               </div>
-              <h3 className="text-xl font-black text-[#1a1c1c] group-hover:text-white mb-3 transition-colors duration-300">{s.title}</h3>
-              <p className="text-slate-500 group-hover:text-slate-300 leading-relaxed text-sm transition-colors duration-300">{s.desc}</p>
+              <h3 className="touch-title text-xl font-black text-[#1a1c1c] group-hover:text-white mb-3 transition-colors duration-300">{s.title}</h3>
+              <p className="touch-desc text-slate-500 group-hover:text-slate-300 leading-relaxed text-sm transition-colors duration-300">{s.desc}</p>
             </div>
           ))}
         </div>

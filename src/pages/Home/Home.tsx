@@ -294,8 +294,8 @@ function WhyUsSection() {
                 transitionDuration: '700ms',
               }}
             >
-              {/* Image with zoom on hover */}
-              <div className="h-48 overflow-hidden">
+              {/* Image with zoom on hover / tap */}
+              <div className="touch-img h-48 overflow-hidden">
                 <img
                   src={f.img}
                   alt={f.title}
@@ -489,8 +489,8 @@ function CoreValuesSection() {
           className="lg:col-span-3 relative h-[480px] md:h-[600px] transition-all duration-700 delay-200"
           style={{ opacity: visible ? 1 : 0, transform: visible ? 'translateX(0)' : 'translateX(40px)' }}
         >
-          {/* Main image with zoom on hover */}
-          <div className="group h-full rounded-[40px] overflow-hidden shadow-2xl">
+          {/* Main image with zoom on hover / tap */}
+          <div className="touch-img group h-full rounded-[40px] overflow-hidden shadow-2xl">
             <img
               src={img29}
               alt="Students at Mothercare"

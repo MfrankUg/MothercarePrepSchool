@@ -37,10 +37,10 @@ function useReveal(threshold = 0.12) {
 
 /* ─── Staff data ─── */
 const staffMembers = [
-  { name: 'Mr. Eridad Tuwangye',  role: 'Head Teacher / Director',      img: directorImg },
-  { name: 'Mrs. Aida Muhindo',    role: 'Deputy Head Teacher',           img: img1 },
-  { name: 'Mr. Samuel Baluku',    role: 'Mathematics & Science',         img: img2 },
-  { name: 'Mrs. Grace Biira',     role: 'English Language',              img: img3 },
+  { name: 'Mr. Eridad Tuwangye',  role: 'Director',      img: directorImg },
+  { name: 'Mr. Tumwebaze Laban',    role: 'Head Teacher',           img: img1 },
+  { name: 'Mrs. Komurembe Justine aka Sincere Causlity',    role: 'English Language',         img: img2 },
+  { name: 'Mr. Benon aka One man Army',     role: 'Mathematics',              img: img3 },
   { name: 'Mr. Patrick Kule',     role: 'Social Studies',                img: img4 },
   { name: 'Mrs. Judith Kasereka', role: 'Baby Class Teacher',            img: img5 },
   { name: 'Mr. John Mumbere',     role: 'Physical Education',            img: img6 },
@@ -76,10 +76,10 @@ function OurStorySection() {
           className="w-full lg:w-1/2 relative min-h-[420px] md:min-h-[520px] transition-all duration-700"
           style={{ opacity: visible ? 1 : 0, transform: visible ? 'translateX(0)' : 'translateX(-40px)' }}
         >
-          <div className="group absolute top-0 right-0 w-3/4 h-[78%] rounded-[40px] overflow-hidden shadow-2xl z-10">
+          <div className="touch-img group absolute top-0 right-0 w-3/4 h-[78%] rounded-[40px] overflow-hidden shadow-2xl z-10">
             <img src={img1} alt="Students reading" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           </div>
-          <div className="group absolute bottom-0 left-0 w-3/5 h-[58%] rounded-[28px] overflow-hidden border-8 border-[#f5f5f0] shadow-xl z-20">
+          <div className="touch-img group absolute bottom-0 left-0 w-3/5 h-[58%] rounded-[28px] overflow-hidden border-8 border-[#f5f5f0] shadow-xl z-20">
             <img src={img9} alt="Campus view" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           </div>
           <div className="absolute -left-4 md:-left-10 top-1/2 -translate-y-1/2 bg-white p-6 md:p-8 rounded-[28px] shadow-2xl z-30 max-w-[200px] md:max-w-[230px]">
@@ -146,7 +146,7 @@ function CoreValuesSection() {
           {values.map((v, i) => (
             <div
               key={v.title}
-              className="group bg-[#f5f5f0] hover:bg-[#1a1c1c] rounded-[28px] p-8 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl"
+              className="touch-card group bg-[#f5f5f0] hover:bg-[#1a1c1c] rounded-[28px] p-8 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl"
               style={{
                 opacity: visible ? 1 : 0,
                 transform: visible ? 'translateY(0)' : 'translateY(40px)',
@@ -154,15 +154,15 @@ function CoreValuesSection() {
                 transitionDuration: '600ms',
               }}
             >
-              <div className="w-16 h-16 rounded-2xl overflow-hidden mb-6 shadow-md">
+              <div className="touch-img w-16 h-16 rounded-2xl overflow-hidden mb-6 shadow-md">
                 <img
                   src={v.img}
                   alt={v.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
               </div>
-              <h3 className="text-xl font-black text-[#1a1c1c] group-hover:text-white mb-3 transition-colors duration-300">{v.title}</h3>
-              <p className="text-slate-500 group-hover:text-slate-300 leading-relaxed text-sm transition-colors duration-300">{v.desc}</p>
+              <h3 className="touch-title text-xl font-black text-[#1a1c1c] group-hover:text-white mb-3 transition-colors duration-300">{v.title}</h3>
+              <p className="touch-desc text-slate-500 group-hover:text-slate-300 leading-relaxed text-sm transition-colors duration-300">{v.desc}</p>
             </div>
           ))}
         </div>
@@ -226,7 +226,7 @@ function DirectorMessageSection() {
         >
           {/* Photo */}
           <div className="lg:col-span-2 relative min-h-[400px] lg:min-h-0 overflow-hidden">
-            <div className="group h-full">
+            <div className="touch-img group h-full">
               <img
                 src={directorImg}
                 alt="Mr. Eridad Tuwangye — Director"
@@ -304,7 +304,7 @@ function StaffSection() {
               }}
             >
               {/* Headshot */}
-              <div className="relative rounded-[20px] overflow-hidden aspect-square shadow-sm group-hover:shadow-lg transition-shadow duration-300">
+              <div className="touch-img relative rounded-[20px] overflow-hidden aspect-square shadow-sm group-hover:shadow-lg transition-shadow duration-300">
                 <img
                   src={member.img}
                   alt={member.name}

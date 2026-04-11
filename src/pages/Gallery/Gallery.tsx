@@ -165,7 +165,7 @@ export default function Gallery() {
             {filtered.map((image, i) => (
               <div
                 key={image.src + i}
-                className="group relative break-inside-avoid rounded-[24px] overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1"
+                className="touch-img group relative break-inside-avoid rounded-[24px] overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1"
                 style={{
                   opacity: gridVisible ? 1 : 0,
                   transform: gridVisible ? 'translateY(0)' : 'translateY(30px)',
